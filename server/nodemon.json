@@ -1,0 +1,9 @@
+{   
+    "verbose": true,
+    "restartable": true,
+    "ingore": [".git", "node_modules/", "dist/", "coverage/"],
+    "watch": ["src/**/*.ts"],
+    "pollingInterval": 100,
+    "legacyWatch": true,
+    "ext":"js,json,ts"
+}
